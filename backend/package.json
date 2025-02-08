@@ -1,11 +1,12 @@
 {
-  "name": "backend",
+  {
+"name": "student-checkin-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "node22.js",
+  "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+  "start": "node server.js",
+  "dev": "nodemon server.js",
+  "build": "echo 'No build step for backend'"
   },
   "keywords": [],
   "author": "",
